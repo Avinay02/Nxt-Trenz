@@ -1,0 +1,73 @@
+.cart-container {
+  display: flex;
+  justify-content: center;
+  min-height: 75vh;
+}
+
+@media screen and (min-width: 768px) {
+  .cart-container {
+    min-height: 90vh;
+  }
+}
+
+.cart-content-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  max-width: 1110px;
+}
+
+@media screen and (min-width: 768px) {
+  .cart-content-container {
+    width: 80%;
+    max-width: 1110px;
+  }
+}
+
+.cart-heading {
+  color: #3e4c59;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 768px) {
+  .cart-heading {
+    font-size: 48px;
+  }
+}
+
+/* Write your CSS here */
+.remove-all-button {
+  color: #0b69ff;
+  font-size: 18px;
+  height: 40px;
+  width: 120px;
+  border: 0px;
+  align-items: right;
+}
+.cart-total-contianer {
+  height: 150px;
+  width: 300px;
+  border-radius: 5px;
+}
+.total-price-para {
+  font-size: 20px;
+  color: black;
+}
+.span-total {
+  font-weight: bold;
+  font-size: 20px;
+  color: black;
+}
+.items-count-para {
+  font-size: 16px;
+  color: grey;
+}
+.checkout-btn {
+  font-size: 20px;
+  height: 40px;
+  width: 200px;
+  background-color: skyblue;
+  color: white;
+}
